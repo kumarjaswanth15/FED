@@ -1,0 +1,73 @@
+body
+{
+	background:white url("image.png") no-repeat ;
+	background-size:cover;
+
+
+}
+
+#a
+{
+	background:linear-gradient(135deg,brown,yellow,blue);
+	text-align:center;
+	width:300px;
+	padding:30px;
+	margin:100px auto;
+	border-radius:20px;
+	box-shadow:0 0 10px green;
+
+
+
+}
+.b>input[type="text"],.b>input[type="number"],.b>input[type="password"],textarea
+
+
+{
+
+	border:none;
+	outline:none;
+	margin-bottom:5px;
+	color:white;
+    background:transparent;
+    height:25px;
+    width:220px;
+    border-bottom:2px solid white;
+    font-size:14px;
+    font-family:"comic sans ms",sans-serif;
+}
+
+.b>input[type="submit"]
+{
+	background:linear-gradient(135deg,blue,yellow,brown);
+	width:200px;
+	border-radius:0 20px 0 20px;
+
+}
+
+.b>input[type="submit"]:hover
+{
+	color:white;
+	cursor:pointer;
+	box-shadow:0 0 10px white;
+}
+
+
+
+
+::placeholder
+{
+	color:white;
+}
+#c
+{
+	margin-top:-20px;
+	margin-bottom:10px;
+}
+#c .fa
+{
+	color:white;
+	border-radius:100%;
+	border:10px solid;
+	box-shadow:0 0 10px red;
+	font-size:60px;
+}
